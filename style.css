@@ -1,0 +1,103 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./font/Outfit/Outfit-VariableFont_wght.ttf');
+}
+
+*::before,
+*::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Outfit';
+    font-size: 1.6rem;
+    line-height: 1.2;
+    background-color: #020035;
+    color: #f2f3f4;
+    display: grid;
+    place-content: center
+    ;
+}
+
+#app {
+    margin: 2.2rem;
+}
+
+.container {
+    width: 21.05rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2.2rem auto;
+    background-color: #02066f;
+}
+
+.pick-list {
+    padding: 1.2rem 1.2rem 0 4.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 85%;
+    margin: 1.5rem auto;
+}
+
+.btn-container {
+    background-color: #2000b1;
+    padding: 2.2rem 1.2rem;
+    display: flex;
+    justify-content: end;
+    gap: 1.2rem;
+}
+
+.btn {
+    background-color: #ed4b00;
+    color: #f2f3f4;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.btn-ok {
+    background-color: #f2f3f4;
+    color: #020035;
+}
+
+.closing-msg {
+    color: #ed4b00;
+    width: fit-content;
+    font-size: 2.8rem;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksContainer li {
+    padding: 1.0rem;
+}
+
+.linksContainer li:nth-child(even) {
+    background-color: #2000b1;
+}
+
+h1 {
+    margin-bottom: 1.8rem;
+}
